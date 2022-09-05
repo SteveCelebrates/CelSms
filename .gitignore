@@ -1,11 +1,7 @@
-#--------------------------#
-# CelSms Ignore Files    #
-#--------------------------#
-
 *
 !/registration.php
 !/etc**
-!/CelSms**
+!/Smsnow**
 !/.gitignore
 !/app
 !/app/*/
