@@ -11,7 +11,7 @@
  * See COPYING.txt for license details.
  */
 
-namespace CelSms\Smsfree\Api;
+namespace CelSms\Smsnow\Api;
 
 interface PostSmsInterface
 {
