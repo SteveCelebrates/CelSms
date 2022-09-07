@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <!-- 
 /**
  * SteveCelebartes Free Software
@@ -10,7 +11,7 @@
  * See COPYING.txt for license details.
  */ -->
 
-<?xml version="1.0" ?>
+
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <preference for="Celsms\Smsnow\Api\PostSmsInterface" type="Celsms\Smsnow\Model\PostMgt"/>
 </config>
