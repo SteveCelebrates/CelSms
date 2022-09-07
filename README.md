@@ -1,5 +1,7 @@
 # CelSms Magento 2 Sms Module
 
+#### Please note that this extension is still under development. Once done this comment will be deleted.
+
 Cel Magento 2 Sms Notifications Module Will allow you to
 
 - Send out notifications when an order is placed.
