@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+/**
+ * SteveCelebartes Free Software
+ * 
+ * @category CelSms_Smsnow
+ * 
+ * @author SteveCelebrates
+ * 
+ * Copyright © Steve Celebrates (2022), Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */ -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+	<event name="checkout_onepage_controller_success_action">
+	    <observer name="celsms_place_order_after" instance="CelSms\Smsnow\Observer\Orderplaceafter" />
+	</event>
+</config>

@@ -57,7 +57,7 @@ class ApiRef extends AbstractHelper
         $Selectedgateway = $this->smsgatewaylist[$this->getSelectedGateway()];
         return ObjectManager::getInstance()->create($Selectedgateway);
     }
-    public function callApiUrl()
+    public function callApiUrl($mobilenumbers, $message)
     {
         $curentsmsModel = $this->getSelectedGatewayModel();
 

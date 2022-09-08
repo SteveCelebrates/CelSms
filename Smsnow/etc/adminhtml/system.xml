@@ -15,7 +15,8 @@
     <system>
         <!-- Side tab label -->
 		<tab id="celsms" translate="label" sortOrder="100" class="celsms-logo">
-			<label><![CDATA[]]></label>
+			<!-- <label><![CDATA[]]></label> -->
+			<label>Cel Sms Configuration</label>
 		</tab>
         <!-- End of side tab label -->
         <section id="smsnow" showInDefault="1" sortOrder="1" showInWebsite="1" showInStore="1">
